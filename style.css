@@ -22,7 +22,7 @@ div#colophon-margin a {
     background-color: var(--global--color-foreground);
     color: var(--global--color-background-dark);
 }
-
-div#colophon-margin h2.widget-title {
+/* smaller headers in the footer - only the h2 is spotted */
+div#colophon-margin h2 {
     font-size: var(--global--font-size-lg);
 }
