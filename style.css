@@ -12,6 +12,11 @@ Tags: one-column, responsive-layout
 Text Domain: soestlet
 */
 
+/* overwrite variables */
+:root {
+    --global--color-secondary: #b91a05;
+}
+
 /* mirror the colors on the footer */
 div#colophon-margin {
     background-color: var(--global--color-foreground);
